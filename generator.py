@@ -419,24 +419,118 @@ def terminal_svg() -> str:
 
 
 def info_svg() -> str:
-    t = theme(); w, h = int(DESIGN["info_width"]), int(DESIGN["info_height"])
-    out = [svg_header(w, h, f"{PROFILE['display_name']} information card", "Structured developer identity, expertise and project information."), defs(t, "info"), card_base(w, h, t, "system / profile", "info")]
+    t = theme()
+    w = int(DESIGN["info_width"])
+    h = int(DESIGN["info_height"])
+
+    out = [
+        svg_header(
+            w,
+            h,
+            f"{PROFILE['display_name']} information card",
+            "Structured developer identity, expertise and project information.",
+        ),
+        defs(t, "info"),
+        card_base(w, h, t, "system / profile", "info"),
+    ]
+
     sections = []
-    if PROFILE.get("bio"): sections.append(("ABOUT", PROFILE["bio"], t["white"]))
-    if PROFILE.get("skills"): sections.append(("STACK", " · ".join(PROFILE["skills"]), t["cyan"]))
-    if PROFILE.get("technologies"): sections.append(("BUILD", " · ".join(PROFILE["technologies"]), t["blue"]))
-    if PROFILE.get("achievements"): sections.append(("HIGHLIGHTS", " · ".join(PROFILE["achievements"]), t["orange"]))
-    if PROFILE.get("current_projects"): sections.append(("CURRENTLY", " · ".join(PROFILE["current_projects"]), t["green"]))
+
+    if PROFILE.get("bio"):
+        sections.append(("ABOUT", PROFILE["bio"], t["white"]))
+
+    if PROFILE.get("skills"):
+        sections.append(("STACK", " · ".join(PROFILE["skills"]), t["cyan"]))
+
+    if PROFILE.get("technologies"):
+        sections.append(("BUILD", " · ".join(PROFILE["technologies"]), t["blue"]))
+
+    if PROFILE.get("achievements"):
+        sections.append(("HIGHLIGHTS", " · ".join(PROFILE["achievements"]), t["orange"]))
+
+    if PROFILE.get("current_projects"):
+        sections.append(("CURRENTLY", " · ".join(PROFILE["current_projects"]), t["green"]))
+
     contact = PROFILE.get("website") or PROFILE.get("contact")
-    if contact: sections.append(("CONTACT", contact, t["purple"]))
+    if contact:
+        sections.append(("CONTACT", contact, t["purple"]))
+
     y = 65
+
+    # Conservative character limit prevents SVG text overflow.
+    max_chars = 82
+
     for i, (label, value, value_color) in enumerate(sections[:6]):
         delay = i * 0.06
-        status = f'<circle cx="{w-36}" cy="{y-4}" r="4" fill="{t["green"]}"><animate attributeName="opacity" values=".45;1;.45" dur="2s" repeatCount="indefinite"/></circle>' if label == "CURRENTLY" else ''
-        out.append(f'<g opacity="1"><text x="28" y="{y}" fill="{t["orange"]}" font-family="{esc(DESIGN["font_mono"])}" font-size="9.5" letter-spacing="1.7">{esc(label)}</text>{status}<text x="28" y="{y+17}" fill="{value_color}" font-family="{esc(DESIGN["font_sans"])}" font-size="12.5">{esc(value[:86])}</text><line x1="28" y1="{y+28}" x2="{w-28}" y2="{y+28}" stroke="{t["border"]}" opacity=".48"/><animateTransform attributeName="transform" type="translate" from="0 8" to="0 0" dur=".35s" begin="{delay:.2f}s" fill="freeze"/><animate attributeName="opacity" from="0" to="1" dur=".35s" begin="{delay:.2f}s" fill="freeze"/></g>')
+
+        value = str(value).strip()
+
+        if len(value) > max_chars:
+            value = value[:max_chars - 1].rstrip() + "…"
+
+        status = ""
+
+        if label == "CURRENTLY":
+            status = f"""
+            <circle cx="{w-36}" cy="{y-4}" r="4"
+                    fill="{t["green"]}">
+                <animate attributeName="opacity"
+                         values=".45;1;.45"
+                         dur="2s"
+                         repeatCount="indefinite"/>
+            </circle>
+            """
+
+        out.append(
+            f"""
+            <g opacity="0">
+                <text x="28" y="{y}"
+                      fill="{t["orange"]}"
+                      font-family="{esc(DESIGN["font_mono"])}"
+                      font-size="9.5"
+                      letter-spacing="1.7">
+                    {esc(label)}
+                </text>
+
+                {status}
+
+                <text x="28" y="{y+17}"
+                      fill="{value_color}"
+                      font-family="{esc(DESIGN["font_sans"])}"
+                      font-size="11.5">
+                    {esc(value)}
+                </text>
+
+                <line x1="28" y1="{y+28}"
+                      x2="{w-28}" y2="{y+28}"
+                      stroke="{t["border"]}"
+                      opacity=".48"/>
+
+                <animateTransform
+                    attributeName="transform"
+                    type="translate"
+                    from="0 8"
+                    to="0 0"
+                    dur=".35s"
+                    begin="{delay:.2f}s"
+                    fill="freeze"/>
+
+                <animate
+                    attributeName="opacity"
+                    from="0"
+                    to="1"
+                    dur=".35s"
+                    begin="{delay:.2f}s"
+                    fill="freeze"/>
+            </g>
+            """
+        )
+
         y += 43
-        if y > h - 20: break
-    out.append('</svg>'); return ''.join(out)
+
+    out.append("</svg>")
+
+    return "".join(out)
 
 
 def contribution_svg() -> str:
