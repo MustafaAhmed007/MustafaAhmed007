@@ -29,7 +29,7 @@
 </tr>
 </table>
 
-<p align="center"><img src="output/github-contribution-animation.svg?v=6db1103" alt="Generated GitHub contribution activity visualization" width="96%"></p>
+<p align="center"><img src="output/github-contribution-animation.svg?v=20260831-1" alt="Generated GitHub contribution activity visualization" width="96%"></p>
 
 <!-- PROFILE-AUTO-GENERATED:END -->
 
