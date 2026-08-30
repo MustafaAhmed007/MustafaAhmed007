@@ -5,12 +5,17 @@
 </p>
 
 <p align="center">
-  Designing and shipping intelligent systems that turn ideas into executable, automated products.
+  I design and ship AI-enabled systems, automation infrastructure, developer tooling, and intelligent products — from problem definition to deployable implementation.
 </p>
 
 <p align="center">
   <a href="https://github.com/MustafaAhmed007">GitHub</a> ·
   <a href="mailto:engrmustafa0007@gmail.com">Email</a>
+</p>
+
+<p align="center">
+  <strong>OPEN TO SELECTED OPPORTUNITIES</strong><br>
+  AI Engineering · AI Systems · Automation · Product Engineering · Developer Tools
 </p>
 
 ---
@@ -19,50 +24,58 @@
 
 <table>
 <tr>
-<td width="54%" valign="top"><img src="output/terminal-card.svg" alt="Terminal-style ASCII portrait and identity card" width="100%"></td>
+<td width="54%" valign="top"><img src="output/terminal-card.svg" alt="Terminal-style developer identity card" width="100%"></td>
 <td width="46%" valign="top"><img src="output/info-card.svg" alt="Developer command center profile information" width="100%"></td>
 </tr>
 </table>
 
-<p align="center"><img src="output/github-contribution-animation.svg" alt="Generated GitHub-style contribution activity field" width="96%"></p>
+<p align="center"><img src="output/github-contribution-animation.svg" alt="Generated GitHub contribution activity visualization" width="96%"></p>
 
 <!-- PROFILE-AUTO-GENERATED:END -->
 
-## Proof of Work
+## What I Build
 
-I build around a simple loop:
+```text
+AI SYSTEMS        AI-enabled workflows, agents, orchestration and product architectures
+AUTOMATION        Repeatable pipelines that remove manual execution and operational friction
+PRODUCTS          Useful software from requirements → implementation → deployment
+DEV TOOLING       Systems that improve how developers build, present and maintain software
+DATA WORKFLOWS    Structured, measurable workflows for analysis and decision support
+```
+
+My operating loop is simple:
 
 ```text
 Problem → System → Automation → Product → Measurable outcome
 ```
 
-The strongest work belongs here as it becomes public and verifiable. Each project entry should answer four questions: **what problem existed, what I engineered, what changed, and where the implementation can be inspected.**
+## Selected Systems
 
-### Featured Systems
+This section is intentionally evidence-driven. As systems become public, each entry will link directly to its implementation, demo, benchmark, or case study.
 
 | System | What it demonstrates | Evidence |
 |---|---|---|
-| **Developer Command Center** | Deterministic profile generation, SVG systems, design tokens, automation-ready content architecture | This repository: generator + configuration + generated assets |
-| **AI Automation Systems** | Workflow orchestration, repeatability, AI-assisted execution | Public project links added as implementations ship |
-| **Developer Tooling** | Internal tools that reduce repeated work and increase delivery speed | Public project links added as implementations ship |
+| **Developer Command Center** | Deterministic profile generation, SVG components, design tokens, structured content architecture | This repository: generated assets + configuration-driven architecture |
+| **AI Systems & Automation** | AI-assisted execution, workflow orchestration, repeatability and system design | Public implementations added as they ship |
+| **Developer Tooling** | Automation of repeated engineering and presentation workflows | Public implementations added as they ship |
 
-> **Evidence standard:** no invented metrics, no inflated claims, no “expert in everything.” Public claims should be backed by a repository, shipped artifact, demo, benchmark, case study, or other inspectable proof.
+> **Evidence standard:** no invented metrics, no inflated claims, and no self-awarded expertise. A strong claim should eventually have a repository, shipped artifact, live demo, benchmark, case study, or other inspectable proof behind it.
 
 ## Capability Map
 
-| Capability | Observable proof |
+| Capability | Observable proof / target evidence |
 |---|---|
-| **AI Systems** | Designing AI-enabled workflows and product architectures |
-| **Automation** | Replacing repeatable manual execution with deterministic pipelines |
-| **Product Engineering** | Turning requirements into usable, maintainable products |
-| **Data & Analysis** | Building structured, data-informed workflows and tools |
-| **Developer Experience** | Improving how software is built, presented, and maintained |
+| **AI Systems** | AI-enabled workflows, system architecture, orchestration and deployable implementations |
+| **Automation Engineering** | Deterministic pipelines that replace repeatable manual work |
+| **Product Engineering** | Turning requirements into usable, maintainable software |
+| **Developer Experience** | Tools and systems that improve development and presentation workflows |
+| **Data & Analysis** | Structured workflows that turn data into actionable outputs |
 
 ## Current Build Direction
 
 **AI systems · automation infrastructure · intelligent products · developer tooling**
 
-The focus is not on collecting technologies. It is on producing systems that are **useful, repeatable, measurable, and deployable**.
+The focus is not technology collection. The focus is producing systems that are **useful, repeatable, measurable, maintainable, and deployable**.
 
 ## Engineering Principles
 
@@ -76,29 +89,65 @@ ITERATIVE           Convert feedback into reusable system components.
 
 ## This Profile Is Also a Build
 
-This profile is generated from structured configuration and rendered into reusable SVG components. That architecture is intentional: presentation should be **versionable, testable, reproducible, and maintainable** rather than manually edited markup.
+This repository is itself an engineering artifact rather than a manually assembled README.
 
 ```text
-config.py
-   ↓
-profile data + design tokens
-   ↓
-generator.py
-   ↓
+structured profile data
+        ↓
+design tokens + reusable components
+        ↓
+generator
+        ↓
 validated SVG modules
-   ↓
+        ↓
 README presentation
 ```
 
-The same architecture can be extended into a configurable **Developer Command Center** for other engineers and technical builders.
+The goal is a profile that is **versionable, reproducible, testable, maintainable, and extensible**.
+
+The same architecture can become a configurable **Developer Command Center** for other engineers and technical builders.
+
+## Open to Opportunities
+
+I am open to selective opportunities where I can build and ship high-leverage technical systems.
+
+**Strong fit:**
+
+- AI engineering and AI systems
+- Automation engineering
+- Intelligent product engineering
+- Developer tooling and developer experience
+- Technical systems architecture
+
+**Engagements:** full-time · contract · consulting · high-leverage collaborations
+
+If the problem is difficult, useful, and worth shipping, I am interested.
 
 ## Work With Me
 
-For a custom GitHub developer profile, command-center build, or developer-branding system:
+I also build custom GitHub developer profiles and command centers for engineers who want their technical identity to communicate **identity + proof of work + engineering depth** rather than simply display a list of technologies.
 
-**engrmustafa0007@gmail.com**
+**Custom profile engineering:** visual system + proof-of-work architecture + maintainable generation workflow.
 
-> **Custom profile engineering:** identity + proof-of-work architecture + visual system + maintainable generation workflow.
+📩 **engrmustafa0007@gmail.com**
+
+## Feedback Loop
+
+```text
+Visitor / recruiter / client feedback
+                ↓
+         Identify friction
+                ↓
+      Improve evidence or UX
+                ↓
+            Regenerate
+                ↓
+          Inspect + measure
+                ↓
+             Repeat
+```
+
+This profile will evolve with the work it represents.
 
 ---
 
