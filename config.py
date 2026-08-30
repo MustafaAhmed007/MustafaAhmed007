@@ -9,7 +9,7 @@ PREVIEW_DIR = ROOT / "preview"
 PROFILE = {
     "github_username": "MustafaAhmed007",
     "display_name": "Mustafa Ahmed",
-    "bio": "AI Systems Architect · Automation Engineer · Execution-First Product Builder",
+    "bio": "AI Systems Architect · Automation Engineer",
     "location": "",
     "website": "",
     "theme": "cyber_cyan",
