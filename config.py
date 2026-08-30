@@ -9,23 +9,19 @@ PREVIEW_DIR = ROOT / "preview"
 PROFILE = {
     "github_username": "MustafaAhmed007",
     "display_name": "Mustafa Ahmed",
-
-    "bio": "AI Systems Architect · Automation Engineer",
-
+    "bio": "AI Systems Architect · Automation Engineer · Execution-First Product Builder",
     "location": "",
     "website": "",
-
     "theme": "cyber_cyan",
-
     "skills": [
-    "AI Systems",
-    "Automation",
-    "Python",
-    "SQL",
-    "Data Analysis",
-    "Product Engineering",
+        "AI Systems",
+        "Automation",
+        "Python",
+        "SQL",
+        "Data Analysis",
+        "Product Engineering",
+        "Developer Experience",
     ],
-
     "technologies": [
         "Python",
         "SQL",
@@ -34,23 +30,34 @@ PROFILE = {
         "Automation",
         "Data Science",
     ],
-
     "achievements": [
-    "System-first engineering",
-    "Automation workflows",
-    "Product engineering",
+        "System-first engineering",
+        "Automation workflows",
+        "Product engineering",
     ],
-
     "current_projects": [
-    "AI automation",
-    "Developer tooling",
-    "Intelligent products",
+        "AI automation systems",
+        "Developer tooling",
+        "Intelligent products",
     ],
-
     "contact": "engrmustafa0007@gmail.com",
-
     "status": "BUILDING",
 }
+
+# Public proof-of-work registry.
+# Add a project only when its implementation, artifact, demo, or case study
+# is actually inspectable. This prevents the profile from becoming a claim list.
+PROJECTS = [
+    {
+        "name": "Developer Command Center",
+        "type": "FLAGSHIP SYSTEM",
+        "problem": "A GitHub profile should communicate identity, capability, and proof—not just a bio.",
+        "built": "A deterministic Python + SVG generation pipeline for a configurable developer profile.",
+        "outcome": "Versionable, reproducible profile presentation with reusable visual modules.",
+        "repo": "https://github.com/MustafaAhmed007/MustafaAhmed007",
+        "status": "SHIPPED",
+    },
+]
 
 CONTRIBUTIONS = {"seed": 20260831, "matrix": None}
 
