@@ -39,4 +39,4 @@ jobs:
         run: pytest -q
 
       - name: Validate checked-in assets
-        run: python generator.py --validate
+        run: python validate_assets.py
