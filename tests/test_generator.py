@@ -1,5 +1,6 @@
 from pathlib import Path
 import tempfile
+import xml.etree.ElementTree as ET
 
 import config
 import generator
@@ -21,21 +22,20 @@ def test_escape_xml():
 
 
 def test_generated_svgs_are_valid_xml():
-    import xml.etree.ElementTree as ET
-
     with tempfile.TemporaryDirectory() as tmp:
         original = generator.OUTPUT_DIR
         try:
             generator.OUTPUT_DIR = Path(tmp)
             generator.ensure_dirs()
-            for name, builder in (
-                ("terminal-card.svg", generator.terminal_svg),
-                ("info-card.svg", generator.info_svg),
-                ("github-contribution-animation.svg", generator.contribution_svg),
-            ):
-                content = builder()
+            outputs = {
+                "terminal-card.svg": generator.terminal_svg(),
+                "info-card.svg": generator.info_svg(),
+                "github-contribution-animation.svg": generator.contribution_svg(),
+            }
+            for name, content in outputs.items():
                 path = Path(tmp) / name
                 path.write_text(content, encoding="utf-8")
                 ET.parse(path)
+                assert not generator.validate_svg(path)
         finally:
             generator.OUTPUT_DIR = original
