@@ -1,0 +1,42 @@
+name: Regenerate Profile Assets
+
+on:
+  push:
+    branches: ['upgrade/**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install pinned dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements.txt
+
+      - name: Generate assets
+        run: python generator.py
+
+      - name: Validate generated assets
+        run: python validate_assets.py
+
+      - name: Upload generated artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-profile-assets
+          path: |
+            README.md
+            output/*.svg
+            preview/*
+          if-no-files-found: error
+          retention-days: 7
