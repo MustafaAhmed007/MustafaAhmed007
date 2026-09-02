@@ -1,3 +1,4 @@
+# The gate verifies the real build path and reproducibility contract.
 name: Quality Gate
 
 on:
