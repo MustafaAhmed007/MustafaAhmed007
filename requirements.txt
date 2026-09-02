@@ -1,1 +1,2 @@
-Pillow>=10.0,<13
+Pillow==12.3.0
+pytest==9.1.1

@@ -15,7 +15,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/actions/workflow/status/MustafaAhmed007/MustafaAhmed007/quality.yml?branch=main&label=quality" alt="Quality workflow status">
-  <img src="https://img.shields.io/github/license/MustafaAhmed007/MustafaAhmed007" alt="License status">
+  <img src="https://img.shields.io/github/license/MustafaAhmed007/MustafaAhmed007" alt="MIT license">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue" alt="Python 3.10 or newer">
 </p>
 
 <p align="center">
@@ -38,63 +39,98 @@
 
 <!-- PROFILE-AUTO-GENERATED:END -->
 
-## What This Repository Is
+## What I Build
 
-A **configuration-driven Developer Command Center** that generates the visual modules used in this profile.
+I focus on **AI systems, automation engineering, intelligent products, developer tooling, workflow orchestration, and technical system architecture**.
+
+```text
+PROBLEM
+   ↓
+SYSTEM DESIGN
+   ↓
+IMPLEMENTATION
+   ↓
+AUTOMATION
+   ↓
+PRODUCT / TOOL
+   ↓
+MEASURABLE OUTCOME
+```
+
+| Capability | Typical work |
+|---|---|
+| **AI Systems** | AI-enabled workflows, agents, orchestration, retrieval, and product architectures |
+| **Automation** | Repeatable pipelines that remove manual execution and operational friction |
+| **Product Engineering** | Useful software from requirements → implementation → deployment |
+| **Developer Tooling** | Systems that improve how developers build, test, present, and maintain software |
+| **Data Workflows** | Structured, measurable workflows for analysis and decision support |
+
+## Selected Proof of Work
+
+This profile follows an **evidence-first** rule: a capability claim becomes stronger as inspectable implementation, artifacts, demos, benchmarks, or case studies become public.
+
+| System | What it demonstrates | Evidence |
+|---|---|---|
+| **Developer Command Center** | Configuration-driven generation, reusable SVG modules, README automation, validation, and reproducible CI | [This repository](https://github.com/MustafaAhmed007/MustafaAhmed007) |
+| **AI Systems & Automation** | AI-assisted execution and workflow orchestration | Added as public implementations ship |
+| **Developer Tooling** | Automation of repeated engineering workflows | Added as public implementations ship |
+
+> **Rule:** shipped evidence beats a longer claim list.
+
+## This Repository Is a System
+
+The repository is the executable backend and presentation layer for this GitHub profile — not a manually edited README.
 
 ```text
 config.py
    ↓
-validated profile + design tokens
+profile + project evidence + design tokens
    ↓
-Python generator
+Python generation engine
    ↓
 SVG identity / information / activity modules
    ↓
-README presentation
+README auto-generated section
+   ↓
+XML + safety validation
+   ↓
+Regression tests
+   ↓
+Full CI quality gate
+   ↓
+clean-diff reproducibility check
+   ↓
+public GitHub profile
 ```
 
-The repository is designed to be **reproducible, testable, maintainable, and easy to customize**.
+### Architecture
 
-## What I Build
-
-```text
-AI SYSTEMS        AI-enabled workflows, agents, orchestration and product architectures
-AUTOMATION        Repeatable pipelines that remove manual execution and operational friction
-PRODUCTS          Useful software from requirements → implementation → deployment
-DEV TOOLING       Systems that improve how developers build, present and maintain software
-DATA WORKFLOWS    Structured, measurable workflows for analysis and decision support
-```
-
-My operating loop:
-
-```text
-Problem → System → Automation → Product → Measurable outcome
-```
-
-## Evidence Standard
-
-Claims belong behind inspectable evidence. Public systems are linked when their implementation, artifact, demo, benchmark, case study, or equivalent proof is actually available.
-
-| System | Demonstrates | Evidence |
-|---|---|---|
-| **Developer Command Center** | Deterministic profile generation, reusable SVG modules, structured configuration | This repository |
-| **AI Systems & Automation** | AI-assisted execution and workflow orchestration | Added as public implementations ship |
-| **Developer Tooling** | Automation of repeated engineering workflows | Added as public implementations ship |
+- **Source of truth:** `config.py`
+- **Portable template:** `config.example.py`
+- **Generation engine:** `generator.py`
+- **SVG validation:** `validate_assets.py`
+- **End-to-end gate:** `scripts/quality_gate.py`
+- **Regression suite:** `tests/`
+- **Continuous verification:** `.github/workflows/quality.yml`
+- **Discovery strategy:** [`docs/SEO_AND_DISCOVERY.md`](docs/SEO_AND_DISCOVERY.md)
+- **Compounding growth model:** [`docs/GROWTH_FLYWHEEL.md`](docs/GROWTH_FLYWHEEL.md)
+- **Final system architecture:** [`PROFILE_ARCHITECTURE.md`](PROFILE_ARCHITECTURE.md)
 
 ## Engineering Principles
 
 ```text
-SYSTEM-FIRST       Build the operating system, not a one-off artifact.
+SYSTEM-FIRST       Build reusable systems, not one-off artifacts.
 EVIDENCE-FIRST      Show implementation before making the claim.
 AUTOMATION-FIRST    Automate repeated work once the workflow is understood.
 OUTCOME-FIRST       Optimize for shipped results, not activity.
-ITERATIVE           Convert feedback into reusable system components.
+DETERMINISTIC       Keep generated output stable and reviewable.
+VALIDATED           Never publish generated assets without structural checks.
+ITERATIVE           Convert feedback into reusable system improvements.
 ```
 
 ## Reproduce Locally
 
-Requirements: Python 3.10+.
+Requirements: **Python 3.10+**.
 
 ```bash
 git clone https://github.com/MustafaAhmed007/MustafaAhmed007.git
@@ -103,47 +139,67 @@ python -m venv .venv
 # Windows: .venv\Scripts\activate
 # macOS/Linux: source .venv/bin/activate
 python -m pip install -r requirements.txt
-python -m pip install pytest
-python generator.py
-python generator.py --validate
-pytest -q
+python scripts/quality_gate.py
 ```
 
-### Customize
+The quality gate compiles the code, runs regression tests, executes the real generator, validates generated SVGs, runs the generator's validation mode, and verifies that generated README/assets remain clean after regeneration.
 
-Use `config.py` as the source of truth for profile content, themes, design tokens, contribution data, and public proof-of-work entries. `config.example.py` is the portable template for adapting the system to another profile.
+### Customize for another profile
 
-## Quality & Safety
+1. Copy `config.example.py` to `config.py`.
+2. Replace identity, skills, projects, evidence, and contact details.
+3. Select a theme and adjust design tokens.
+4. Add a local `assets/avatar.png` if desired; otherwise the generator uses a deterministic fallback.
+5. Run `python generator.py`.
+6. Run `python scripts/quality_gate.py`.
 
-The repository ships with a GitHub Actions quality gate covering Python 3.10–3.13, compilation, tests, and SVG validation. Python dependencies are declared in `requirements.txt` and project metadata lives in `pyproject.toml`.
+The configuration template is intentionally self-contained: there are no hidden production-only constants required to understand or adapt the system.
 
-Security reporting guidance is available in [`SECURITY.md`](SECURITY.md), and development/contribution rules are documented in [`CONTRIBUTING.md`](CONTRIBUTING.md).
+## Quality, Security & Maintenance
 
-## Monetizable Product Direction
+The repository uses pinned Python dependencies, automated GitHub Actions verification, SVG structural/security checks, regression tests, and Dependabot configuration for dependency and action updates.
 
-The underlying architecture is reusable beyond this profile. It can be packaged as a **custom developer-profile/command-center service** with configuration, brand system, proof-of-work sections, automated generation, validation, and GitHub-ready output.
+Security reporting: [`SECURITY.md`](SECURITY.md)  
+Contribution rules: [`CONTRIBUTING.md`](CONTRIBUTING.md)  
+Citation metadata: [`CITATION.cff`](CITATION.cff)
 
-The product loop is:
+## Discovery & Growth
+
+The profile is designed to compound through **distinctive presentation + useful systems + inspectable proof + distribution + feedback**.
 
 ```text
-Client input → configuration → generation → QA → delivery → feedback → template improvement
+BUILD → SHIP → PROVE → PRESENT → DISCOVER → TRUST
+  ↑                                      ↓
+  └────── BETTER SYSTEMS ← FEEDBACK ← SHARE / CONTACT
 ```
 
-## Feedback Loop
+The goal is not empty virality. The goal is to make every successful discovery more valuable because there is deeper technical proof behind it.
+
+For the operating model, see [`docs/GROWTH_FLYWHEEL.md`](docs/GROWTH_FLYWHEEL.md). For search and discovery rules, see [`docs/SEO_AND_DISCOVERY.md`](docs/SEO_AND_DISCOVERY.md).
+
+## Productization Direction
+
+The architecture is reusable beyond one profile. It can become a **developer-profile / command-center product** with:
 
 ```text
-Visitor / recruiter / client feedback
-                ↓
-         Identify friction
-                ↓
-      Improve evidence or UX
-                ↓
-            Regenerate
-                ↓
-          Validate + inspect
-                ↓
-             Repeat
+Client input
+   ↓
+profile + brand configuration
+   ↓
+generated visual system
+   ↓
+proof-of-work presentation
+   ↓
+automated QA
+   ↓
+GitHub-ready delivery
+   ↓
+feedback
+   ↓
+template / system improvement
 ```
+
+That creates a repeatable delivery engine instead of a one-off portfolio service.
 
 ## Open to Opportunities
 
@@ -158,5 +214,5 @@ I am open to selective opportunities where I can build and ship high-leverage te
 ---
 
 <p align="center">
-  <sub>Built as a deterministic, configurable developer command center.</sub>
+  <sub>Built as a deterministic, configurable Developer Command Center — where profile presentation is treated as software.</sub>
 </p>
