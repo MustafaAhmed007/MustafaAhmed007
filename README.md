@@ -30,12 +30,12 @@
 
 <table>
 <tr>
-<td width="54%" valign="top"><img src="output/terminal-card.svg" alt="Terminal-style ASCII portrait and identity command center" width="100%"></td>
-<td width="46%" valign="top"><img src="output/info-card.svg" alt="AI systems architect developer command center profile card" width="100%"></td>
+<td width="54%" valign="top"><img src="output/terminal-card.svg" alt="Terminal-style ASCII portrait and identity card" width="100%"></td>
+<td width="46%" valign="top"><img src="output/info-card.svg" alt="Developer command center profile information" width="100%"></td>
 </tr>
 </table>
 
-<p align="center"><img src="output/github-contribution-animation.svg" alt="Generated GitHub-style contribution activity visualization" width="96%"></p>
+<p align="center"><img src="output/github-contribution-animation.svg" alt="Generated GitHub-style contribution activity field" width="96%"></p>
 
 <!-- PROFILE-AUTO-GENERATED:END -->
 
