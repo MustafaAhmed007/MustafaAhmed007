@@ -114,6 +114,7 @@ public GitHub profile
 - **Continuous verification:** `.github/workflows/quality.yml`
 - **Discovery strategy:** [`docs/SEO_AND_DISCOVERY.md`](docs/SEO_AND_DISCOVERY.md)
 - **Compounding growth model:** [`docs/GROWTH_FLYWHEEL.md`](docs/GROWTH_FLYWHEEL.md)
+- **Bootstrap + multi-aspect research:** [`docs/BOOTSTRAP_AND_RESEARCH.md`](docs/BOOTSTRAP_AND_RESEARCH.md)
 - **Final system architecture:** [`PROFILE_ARCHITECTURE.md`](PROFILE_ARCHITECTURE.md)
 
 ## Engineering Principles
@@ -127,6 +128,36 @@ DETERMINISTIC       Keep generated output stable and reviewable.
 VALIDATED           Never publish generated assets without structural checks.
 ITERATIVE           Convert feedback into reusable system improvements.
 ```
+
+## Bootstrap & Auto-Research
+
+The repository now includes an executable foundation for **low-friction setup and evidence-preserving multi-aspect research**.
+
+```text
+ONE-CLICK BOOTSTRAP
+Python check → isolated .venv → pinned dependencies → editable install → full quality gate
+
+MULTI-ASPECT RESEARCH
+Topic → aspect plan → local evidence + direct URLs → optional cloud enrichment → Markdown / JSON
+```
+
+### One-click installation
+
+- **Windows:** double-click `setup.bat`.
+- **macOS/Linux:** run `./setup.sh`.
+- **Portable:** run `python bootstrap.py`.
+
+The bootstrap fails early on unsupported Python versions and validates the finished environment instead of leaving a partially configured setup for the user to debug.
+
+### Multi-aspect research
+
+```bash
+python research.py "AI developer tools" --local docs --url https://docs.github.com/
+```
+
+Default aspects cover **landscape, technical, implementation, positioning, and discovery**. Add custom aspects with repeated `--aspect` flags. Local files/directories and direct URLs work without cloud credentials. Optional cloud enrichment is enabled through `RESEARCH_CLOUD_ENDPOINT` and `RESEARCH_CLOUD_TOKEN`.
+
+The research engine preserves source metadata and clearly separates optional cloud output from inspectable evidence. See [`docs/BOOTSTRAP_AND_RESEARCH.md`](docs/BOOTSTRAP_AND_RESEARCH.md) for the complete operating model.
 
 ## Reproduce Locally
 
