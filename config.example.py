@@ -15,14 +15,15 @@ PREVIEW_DIR = ROOT / "preview"
 PROFILE = {
     "github_username": "your-username",
     "display_name": "Your Name",
-    "bio": "AI Engineer · Automation Architect · System Builder",
-    "location": "",
-    "website": "",
-    "theme": "cyber_cyan",
-    "skills": ["Python", "Systems", "Automation"],
-    "technologies": ["Python", "SQL", "AI"],
-    "achievements": ["Achievement one"],
-    "current_projects": ["Project one"],
+    "bio": "AI Systems Architect · Automation Engineer · Agentic Systems",
+    "headline": "I engineer intelligent systems that turn complex workflows into executable products.",
+    "location": "Your City, Country",
+    "website": "https://example.com/",
+    "theme": "titanium_minimal",
+    "skills": ["AI Systems", "Agents", "Automation", "RAG", "Developer Infrastructure"],
+    "technologies": ["Python", "SQL", "LLMs", "GitHub Actions"],
+    "achievements": ["System-first engineering"],
+    "current_projects": ["Your flagship system"],
     "contact": "",
     "status": "BUILDING",
 }
@@ -31,7 +32,7 @@ PROFILE = {
 PROJECTS = [
     {
         "name": "Example Project",
-        "type": "PROJECT",
+        "type": "FLAGSHIP SYSTEM",
         "problem": "What problem does this solve?",
         "built": "What did you actually build?",
         "outcome": "What changed because it exists?",
@@ -39,6 +40,12 @@ PROJECTS = [
         "status": "SHIPPED",
     },
 ]
+
+PUBLIC_LINKS = {
+    "portfolio": "https://example.com/",
+    "github": "https://github.com/your-username",
+    "email": "mailto:you@example.com",
+}
 
 CONTRIBUTIONS = {
     "seed": 20260831,
