@@ -5,23 +5,29 @@
 </p>
 
 <p align="center">
-  I design and ship AI-enabled systems, automation infrastructure, developer tooling, and intelligent products — from problem definition to deployable implementation.
+  <strong>I engineer intelligent systems that turn complex workflows into executable, automated products.</strong>
 </p>
 
 <p align="center">
+  AI SYSTEMS · AGENTS · RAG · AUTOMATION · DEVELOPER INFRASTRUCTURE · PRODUCT ENGINEERING
+</p>
+
+<p align="center">
+  <a href="https://mustafa-portfolio-rust.vercel.app/">Portfolio</a> ·
   <a href="https://github.com/MustafaAhmed007">GitHub</a> ·
   <a href="mailto:engrmustafa0007@gmail.com">Email</a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/actions/workflow/status/MustafaAhmed007/MustafaAhmed007/quality.yml?branch=main&label=quality" alt="Quality workflow status">
-  <img src="https://img.shields.io/github/license/MustafaAhmed007/MustafaAhmed007" alt="MIT license">
-  <img src="https://img.shields.io/badge/Python-3.10%2B-blue" alt="Python 3.10 or newer">
+  <img src="https://img.shields.io/github/actions/workflow/status/MustafaAhmed007/MustafaAhmed007/quality.yml?branch=main&label=verified%20quality" alt="Verified quality workflow status">
+  <img src="https://img.shields.io/github/stars/MustafaAhmed007/MustafaAhmed007?style=flat" alt="Repository stars">
+  <img src="https://img.shields.io/badge/AI%20Systems-Engineering-blue" alt="AI systems engineering">
+  <img src="https://img.shields.io/badge/Automation-Engineering-purple" alt="Automation engineering">
 </p>
 
 <p align="center">
-  <strong>OPEN TO SELECTED OPPORTUNITIES</strong><br>
-  AI Engineering · AI Systems · Automation · Product Engineering · Developer Tools
+  <strong>OPEN TO SELECTED TECHNICAL OPPORTUNITIES</strong><br>
+  AI Engineering · AI Systems · Automation · Product Engineering · Developer Infrastructure
 </p>
 
 ---
@@ -41,45 +47,181 @@
 
 ## What I Build
 
-I focus on **AI systems, automation engineering, intelligent products, developer tooling, workflow orchestration, and technical system architecture**.
+I work at the intersection of **AI systems, agents, retrieval, automation, developer infrastructure, and product engineering**.
+
+I don't optimize for isolated scripts. I build systems with explicit boundaries, verification, recovery paths, and measurable outputs.
 
 ```text
 PROBLEM
    ↓
-SYSTEM DESIGN
+ARCHITECTURE
    ↓
-IMPLEMENTATION
+AI / AGENT LAYER
+   ↓
+ORCHESTRATION
    ↓
 AUTOMATION
    ↓
-PRODUCT / TOOL
+VALIDATION
+   ↓
+DEPLOYMENT
    ↓
 MEASURABLE OUTCOME
+   ↓
+FEEDBACK
+   └──────────────→ SYSTEM IMPROVEMENT
 ```
 
-| Capability | Typical work |
-|---|---|
-| **AI Systems** | AI-enabled workflows, agents, orchestration, retrieval, and product architectures |
-| **Automation** | Repeatable pipelines that remove manual execution and operational friction |
-| **Product Engineering** | Useful software from requirements → implementation → deployment |
-| **Developer Tooling** | Systems that improve how developers build, test, present, and maintain software |
-| **Data Workflows** | Structured, measurable workflows for analysis and decision support |
+## Flagship Systems
 
-## Selected Proof of Work
+These are the public systems that best represent the engineering direction of this profile. Each is linked to inspectable source code rather than being a résumé claim.
 
-This profile follows an **evidence-first** rule: a capability claim becomes stronger as inspectable implementation, artifacts, demos, benchmarks, or case studies become public.
+### [AdaptiveRAG-X](https://github.com/MustafaAhmed007/AdaptiveRag-X)
 
-| System | What it demonstrates | Evidence |
-|---|---|---|
-| **Developer Command Center** | Configuration-driven generation, reusable SVG modules, README automation, validation, and reproducible CI | [This repository](https://github.com/MustafaAhmed007/MustafaAhmed007) |
-| **AI Systems & Automation** | AI-assisted execution and workflow orchestration | Added as public implementations ship |
-| **Developer Tooling** | Automation of repeated engineering workflows | Added as public implementations ship |
+**Adaptive retrieval infrastructure for intelligent knowledge systems.**
 
-> **Rule:** shipped evidence beats a longer claim list.
+Instead of forcing every query through one retrieval path, AdaptiveRAG-X profiles the query and can select bounded dense, hybrid, graph, web, reranking, and rewrite strategies. Its public architecture includes security gating, evidence evaluation, citations, traces, evaluation metrics, and configurable provider boundaries.
 
-## This Repository Is a System
+`RAG` · `Retrieval` · `Evaluation` · `Evidence` · `AI Infrastructure`
 
-The repository is the executable backend and presentation layer for this GitHub profile — not a manually edited README.
+---
+
+### [Agent-Authority](https://github.com/MustafaAhmed007/Agent-Authority)
+
+**Runtime authority and verification infrastructure for AI agents.**
+
+The system treats agent authority as an explicit control plane spanning identity, task scope, capabilities, policy, trust, risk, approval, execution, verification, evidence, audit, and bounded learning. Its core design is fail-closed rather than trust-by-default.
+
+`Agents` · `Security` · `Policy` · `Governance` · `Auditability`
+
+---
+
+### [RepoForge-Omega](https://github.com/MustafaAhmed007/RepoForge-Omega)
+
+**Autonomous repository engineering and verification infrastructure.**
+
+RepoForge discovers an unknown codebase, fingerprints its technology surface, diagnoses risks, plans evidence-backed repairs, applies gated changes, verifies the result, and produces an auditable engineering report.
+
+`Developer Infrastructure` · `Repository Engineering` · `Verification` · `Automation`
+
+---
+
+### [Developer Command Center](https://github.com/MustafaAhmed007/MustafaAhmed007)
+
+**The system behind this profile.**
+
+A deterministic Python + SVG developer-profile platform with configuration as source of truth, generated presentation, structural validation, regression tests, CI, one-click bootstrap, and multi-aspect research.
+
+`Python` · `SVG` · `CI/CD` · `Automation` · `Developer Experience`
+
+> **Evidence rule:** shipped implementation beats a longer claim list.
+
+## Proof of Engineering
+
+Authority here is designed to come from **inspectable engineering evidence**, not inflated metrics.
+
+```text
+SOURCE CODE
+    ↓
+ARCHITECTURE
+    ↓
+TESTS
+    ↓
+CI
+    ↓
+SECURITY / VALIDATION
+    ↓
+DEMO / DEPLOYMENT
+    ↓
+CASE STUDY / OUTCOME
+```
+
+Current public proof includes:
+
+- Public source repositories
+- Architecture documentation
+- Deterministic generation pipelines
+- Automated CI quality gates
+- Regression tests
+- Security/structural validation
+- Reproducible build paths
+- Evidence-oriented system designs
+
+## How I Engineer
+
+```text
+┌────────────────────────────────────────────┐
+│                 USER / GOAL                │
+└──────────────────────┬─────────────────────┘
+                       ↓
+                INTENT / PLANNING
+                       ↓
+          ┌────────────┴────────────┐
+          ↓                         ↓
+       AI / LLMs                  TOOLS
+          ↓                         ↓
+          └────────────┬────────────┘
+                       ↓
+                  ORCHESTRATION
+                       ↓
+                    POLICY
+                       ↓
+                  VALIDATION
+                       ↓
+                 OBSERVABILITY
+                       ↓
+                  DEPLOYMENT
+                       ↓
+                   FEEDBACK
+                       ↓
+              SYSTEM IMPROVEMENT
+```
+
+### Engineering bias
+
+- **Systems over scripts**
+- **Automation over repetition**
+- **Evidence over claims**
+- **Validation over assumption**
+- **Reusable architecture over one-off implementations**
+- **Deployment over prototypes**
+- **Feedback over static systems**
+
+## Technical Focus
+
+### AI / Intelligence
+
+`LLMs` · `RAG` · `Agents` · `Agent orchestration` · `Evaluation` · `Knowledge systems` · `Prompt engineering`
+
+### Engineering
+
+`Python` · `TypeScript` · `SQL` · `REST APIs` · `Git` · `GitHub Actions`
+
+### AI Infrastructure
+
+`LangGraph` · `LangChain` · `LlamaIndex` · `Ollama` · `Vector databases` · `PostgreSQL` · `Redis`
+
+### Automation
+
+`n8n` · `Make` · `GitHub Actions` · `API automation` · `Workflow orchestration`
+
+> Technologies are listed because they support the systems above—not as a checklist of everything encountered.
+
+## Currently Building
+
+The active direction of the public engineering portfolio is:
+
+- Agentic AI systems
+- Adaptive RAG architectures
+- Autonomous repository engineering
+- AI-powered developer tooling
+- Intelligent workflow orchestration
+- Production-oriented automation infrastructure
+- Self-improving system architectures
+
+## This Repository Is Also a System
+
+The unusual part of this profile is intentional: **the profile itself is software**.
 
 ```text
 config.py
@@ -88,7 +230,7 @@ profile + project evidence + design tokens
    ↓
 Python generation engine
    ↓
-SVG identity / information / activity modules
+SVG identity modules
    ↓
 README auto-generated section
    ↓
@@ -98,10 +240,12 @@ Regression tests
    ↓
 Full CI quality gate
    ↓
-clean-diff reproducibility check
+Clean-diff reproducibility
    ↓
-public GitHub profile
+Public technical identity
 ```
+
+The implementation is deliberately secondary to the engineering work it represents. The visitor should first understand **what I build**, then discover that the presentation layer was engineered as a system too.
 
 ### Architecture
 
@@ -112,21 +256,87 @@ public GitHub profile
 - **End-to-end gate:** `scripts/quality_gate.py`
 - **Regression suite:** `tests/`
 - **Continuous verification:** `.github/workflows/quality.yml`
-- **Discovery strategy:** [`docs/SEO_AND_DISCOVERY.md`](docs/SEO_AND_DISCOVERY.md)
-- **Compounding growth model:** [`docs/GROWTH_FLYWHEEL.md`](docs/GROWTH_FLYWHEEL.md)
-- **Final system architecture:** [`PROFILE_ARCHITECTURE.md`](PROFILE_ARCHITECTURE.md)
+- **Bootstrap + research:** `docs/BOOTSTRAP_AND_RESEARCH.md`
+- **Discovery strategy:** `docs/SEO_AND_DISCOVERY.md`
+- **Authority/growth model:** `docs/AUTHORITY_SYSTEM.md`
+- **Final system architecture:** `PROFILE_ARCHITECTURE.md`
 
-## Engineering Principles
+## Bootstrap & Multi-Aspect Research
+
+The repository includes an executable foundation for low-friction setup and evidence-preserving research.
 
 ```text
-SYSTEM-FIRST       Build reusable systems, not one-off artifacts.
-EVIDENCE-FIRST      Show implementation before making the claim.
-AUTOMATION-FIRST    Automate repeated work once the workflow is understood.
-OUTCOME-FIRST       Optimize for shipped results, not activity.
-DETERMINISTIC       Keep generated output stable and reviewable.
-VALIDATED           Never publish generated assets without structural checks.
-ITERATIVE           Convert feedback into reusable system improvements.
+ONE-CLICK BOOTSTRAP
+Python check → isolated .venv → pinned dependencies → editable install → quality gate
+
+MULTI-ASPECT RESEARCH
+Topic → aspect plan → local evidence + direct URLs → optional cloud enrichment → Markdown / JSON
 ```
+
+### One-click installation
+
+- **Windows:** double-click `setup.bat`.
+- **macOS/Linux:** run `python bootstrap.py` or `./setup.sh` when the launcher has executable permission.
+- **Portable:** run `python bootstrap.py`.
+
+The bootstrap fails early on unsupported Python versions and validates the finished environment rather than leaving a partially configured setup for the user to debug.
+
+### Research
+
+```bash
+python research.py "AI developer tools" --local docs --url https://docs.github.com/
+```
+
+Default aspects cover **landscape, technical, implementation, positioning, and discovery**. Local files/directories and direct URLs work without cloud credentials. Optional cloud enrichment is configured through `RESEARCH_CLOUD_ENDPOINT` and `RESEARCH_CLOUD_TOKEN`.
+
+## Authority Flywheel
+
+The intended growth engine is not empty virality. It is **compounding technical proof**:
+
+```text
+BUILD
+  ↓
+VERIFY
+  ↓
+DOCUMENT
+  ↓
+SHIP
+  ↓
+DEMONSTRATE
+  ↓
+DISCOVER
+  ↓
+TRUST
+  ↓
+OPPORTUNITY
+  ↓
+FEEDBACK
+  ↓
+BETTER SYSTEM
+  └────────────────────────→ BUILD
+```
+
+Every new system should strengthen at least one of these assets:
+
+**capability · proof · discoverability · trust · opportunity**
+
+## Work With Me
+
+I am interested in serious technical problems involving:
+
+- AI system architecture
+- Agentic workflows
+- AI automation
+- RAG / knowledge systems
+- Developer infrastructure
+- AI-enabled products
+- Engineering automation
+
+**Portfolio:** https://mustafa-portfolio-rust.vercel.app/  
+**GitHub:** https://github.com/MustafaAhmed007  
+**Email:** engrmustafa0007@gmail.com
+
+**Engagements:** full-time · contract · consulting · high-leverage collaborations
 
 ## Reproduce Locally
 
@@ -142,12 +352,12 @@ python -m pip install -r requirements.txt
 python scripts/quality_gate.py
 ```
 
-The quality gate compiles the code, runs regression tests, executes the real generator, validates generated SVGs, runs the generator's validation mode, and verifies that generated README/assets remain clean after regeneration.
+The quality gate compiles the code, runs regression tests, executes the real generator, validates generated SVGs, runs generator validation, and verifies that generated README/assets remain clean after regeneration.
 
-### Customize for another profile
+## Customize the System
 
 1. Copy `config.example.py` to `config.py`.
-2. Replace identity, skills, projects, evidence, and contact details.
+2. Replace identity, links, skills, projects, evidence, and contact details.
 3. Select a theme and adjust design tokens.
 4. Add a local `assets/avatar.png` if desired; otherwise the generator uses a deterministic fallback.
 5. Run `python generator.py`.
@@ -157,62 +367,18 @@ The configuration template is intentionally self-contained: there are no hidden 
 
 ## Quality, Security & Maintenance
 
-The repository uses pinned Python dependencies, automated GitHub Actions verification, SVG structural/security checks, regression tests, and Dependabot configuration for dependency and action updates.
+The repository uses pinned Python dependencies, automated GitHub Actions verification, SVG structural/security checks, regression tests, Dependabot configuration, and reproducibility checks.
 
 Security reporting: [`SECURITY.md`](SECURITY.md)  
 Contribution rules: [`CONTRIBUTING.md`](CONTRIBUTING.md)  
 Citation metadata: [`CITATION.cff`](CITATION.cff)
 
-## Discovery & Growth
-
-The profile is designed to compound through **distinctive presentation + useful systems + inspectable proof + distribution + feedback**.
-
-```text
-BUILD → SHIP → PROVE → PRESENT → DISCOVER → TRUST
-  ↑                                      ↓
-  └────── BETTER SYSTEMS ← FEEDBACK ← SHARE / CONTACT
-```
-
-The goal is not empty virality. The goal is to make every successful discovery more valuable because there is deeper technical proof behind it.
-
-For the operating model, see [`docs/GROWTH_FLYWHEEL.md`](docs/GROWTH_FLYWHEEL.md). For search and discovery rules, see [`docs/SEO_AND_DISCOVERY.md`](docs/SEO_AND_DISCOVERY.md).
-
-## Productization Direction
-
-The architecture is reusable beyond one profile. It can become a **developer-profile / command-center product** with:
-
-```text
-Client input
-   ↓
-profile + brand configuration
-   ↓
-generated visual system
-   ↓
-proof-of-work presentation
-   ↓
-automated QA
-   ↓
-GitHub-ready delivery
-   ↓
-feedback
-   ↓
-template / system improvement
-```
-
-That creates a repeatable delivery engine instead of a one-off portfolio service.
-
-## Open to Opportunities
-
-I am open to selective opportunities where I can build and ship high-leverage technical systems.
-
-**Strong fit:** AI engineering · AI systems · automation engineering · intelligent product engineering · developer tooling · technical systems architecture.
-
-**Engagements:** full-time · contract · consulting · high-leverage collaborations
-
-📩 **engrmustafa0007@gmail.com**
-
 ---
 
 <p align="center">
-  <sub>Built as a deterministic, configurable Developer Command Center — where profile presentation is treated as software.</sub>
+  <strong>Build systems. Verify them. Ship them. Improve them.</strong>
+</p>
+
+<p align="center">
+  <sub>Technical identity is strongest when the implementation behind it can be inspected.</sub>
 </p>
