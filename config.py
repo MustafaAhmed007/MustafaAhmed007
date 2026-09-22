@@ -9,55 +9,91 @@ PREVIEW_DIR = ROOT / "preview"
 PROFILE = {
     "github_username": "MustafaAhmed007",
     "display_name": "Mustafa Ahmed",
-    "bio": "AI Systems Architect · Automation Engineer",
-    "location": "",
-    "website": "",
-    "theme": "cyber_cyan",
+    "bio": "AI Systems Architect · Automation Engineer · Agentic Systems + AI Infrastructure",
+    "headline": "I engineer intelligent systems that turn complex workflows into executable, automated products.",
+    "location": "Hyderabad, India",
+    "website": "https://mustafa-portfolio-rust.vercel.app/",
+    "contact": "engrmustafa0007@gmail.com",
+    "theme": "titanium_minimal",
+    "status": "BUILDING",
     "skills": [
         "AI Systems",
+        "Agentic Engineering",
         "Automation",
-        "Python",
-        "SQL",
-        "Data Analysis",
+        "RAG",
+        "Developer Infrastructure",
         "Product Engineering",
-        "Developer Experience",
     ],
     "technologies": [
         "Python",
+        "TypeScript",
         "SQL",
-        "GitHub",
-        "AI",
-        "Automation",
-        "Data Science",
+        "LLMs",
+        "RAG",
+        "Agents",
+        "GitHub Actions",
+        "PostgreSQL",
+        "Redis",
     ],
     "achievements": [
         "System-first engineering",
-        "Automation workflows",
-        "Product engineering",
+        "Evidence-backed delivery",
+        "Automated verification",
     ],
     "current_projects": [
-        "AI automation systems",
-        "Developer tooling",
-        "Intelligent products",
+        "Agentic AI systems",
+        "Adaptive RAG architectures",
+        "Autonomous repository engineering",
+        "AI-powered developer tooling",
     ],
-    "contact": "engrmustafa0007@gmail.com",
-    "status": "BUILDING",
 }
 
 # Public proof-of-work registry.
-# Add a project only when its implementation, artifact, demo, or case study
-# is actually inspectable. This prevents the profile from becoming a claim list.
+# Only include public repositories with inspectable implementation/evidence.
 PROJECTS = [
     {
+        "name": "AdaptiveRAG-X",
+        "type": "AI / RAG",
+        "problem": "Fixed RAG pipelines waste retrieval effort and can hide weak evidence.",
+        "built": "An adaptive RAG platform that profiles queries and selects bounded dense, hybrid, graph, web and reranking strategies.",
+        "outcome": "Query-dependent retrieval orchestration with evaluation, tracing, citations and configurable providers.",
+        "repo": "https://github.com/MustafaAhmed007/AdaptiveRag-X",
+        "status": "SHIPPED",
+    },
+    {
+        "name": "Agent-Authority",
+        "type": "AGENT SECURITY",
+        "problem": "Agents need explicit authority boundaries rather than unrestricted tool access.",
+        "built": "A vendor-neutral runtime control plane for identity, task-scoped authority, capability policy, risk, approval, execution and verification.",
+        "outcome": "Fail-closed agent execution with auditable evidence and bounded learning.",
+        "repo": "https://github.com/MustafaAhmed007/Agent-Authority",
+        "status": "SHIPPED",
+    },
+    {
+        "name": "RepoForge-Omega",
+        "type": "DEVELOPER INFRASTRUCTURE",
+        "problem": "Repository engineering requires repeatable discovery, diagnosis, repair and verification.",
+        "built": "A repository-agnostic engineering agent for evidence-backed inspection, safe repair, deterministic verification and audit reporting.",
+        "outcome": "A closed engineering loop from unknown codebase to verified engineering report.",
+        "repo": "https://github.com/MustafaAhmed007/RepoForge-Omega",
+        "status": "SHIPPED",
+    },
+    {
         "name": "Developer Command Center",
-        "type": "FLAGSHIP SYSTEM",
-        "problem": "A GitHub profile should communicate identity, capability, and proof—not just a bio.",
-        "built": "A deterministic Python + SVG generation pipeline for a configurable developer profile.",
-        "outcome": "Versionable, reproducible profile presentation with reusable visual modules.",
+        "type": "META / SYSTEM",
+        "problem": "A technical profile should communicate identity, capability and proof instead of behaving like a static résumé.",
+        "built": "A deterministic Python + SVG generation system with validation, CI, bootstrap and multi-aspect research.",
+        "outcome": "Versionable, reproducible authority presentation backed by executable engineering infrastructure.",
         "repo": "https://github.com/MustafaAhmed007/MustafaAhmed007",
         "status": "SHIPPED",
     },
 ]
+
+PUBLIC_LINKS = {
+    "portfolio": "https://mustafa-portfolio-rust.vercel.app/",
+    "github": "https://github.com/MustafaAhmed007",
+    "email": "mailto:engrmustafa0007@gmail.com",
+}
 
 CONTRIBUTIONS = {"seed": 20260831, "matrix": None}
 
